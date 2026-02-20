@@ -1,6 +1,6 @@
-CMakeFiles/SFMLApp.dir/src/game/Level.cpp.o: \
-  /Users/shivambhati/Desktop/SFML/src/game/Level.cpp \
-  /Users/shivambhati/Desktop/SFML/src/game/Level.hpp \
+CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o: \
+  /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp \
+  /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.hpp \
   /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/include/SFML/Graphics/Export.hpp \
@@ -889,4 +889,5 @@ CMakeFiles/SFMLApp.dir/src/game/Level.cpp.o: \
   /opt/homebrew/include/SFML/System/FileInputStream.hpp \
   /opt/homebrew/include/SFML/System/InputStream.hpp \
   /opt/homebrew/include/SFML/System/MemoryInputStream.hpp \
-  /opt/homebrew/include/SFML/System/Sleep.hpp
+  /opt/homebrew/include/SFML/System/Sleep.hpp \
+  /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInternal.hpp

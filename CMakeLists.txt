@@ -14,6 +14,10 @@ add_executable(SFMLApp
 	src/main.cpp
 	src/engine/Engine.cpp
 	src/backgammon/BackgammonGame.cpp
+	src/backgammon/BackgammonGameInput.cpp
+	src/backgammon/BackgammonGameUpdate.cpp
+	src/backgammon/BackgammonGameMoves.cpp
+	src/backgammon/BackgammonGameRender.cpp
 )
 
 # Tip for macOS/Homebrew users:

@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shivambhati/Desktop/SFML
+CMAKE_SOURCE_DIR = /Users/shivambhati/Documents/GitHub/SFML-Backgammon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shivambhati/Desktop/SFML/build
+CMAKE_BINARY_DIR = /Users/shivambhati/Documents/GitHub/SFML-Backgammon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shivambhati/Desktop/SFML/build/CMakeFiles /Users/shivambhati/Desktop/SFML/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles /Users/shivambhati/Documents/GitHub/SFML-Backgammon/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shivambhati/Desktop/SFML/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,102 @@ src/backgammon/BackgammonGame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.s
 .PHONY : src/backgammon/BackgammonGame.cpp.s
 
+src/backgammon/BackgammonGameInput.o: src/backgammon/BackgammonGameInput.cpp.o
+.PHONY : src/backgammon/BackgammonGameInput.o
+
+# target to build an object file
+src/backgammon/BackgammonGameInput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o
+.PHONY : src/backgammon/BackgammonGameInput.cpp.o
+
+src/backgammon/BackgammonGameInput.i: src/backgammon/BackgammonGameInput.cpp.i
+.PHONY : src/backgammon/BackgammonGameInput.i
+
+# target to preprocess a source file
+src/backgammon/BackgammonGameInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.i
+.PHONY : src/backgammon/BackgammonGameInput.cpp.i
+
+src/backgammon/BackgammonGameInput.s: src/backgammon/BackgammonGameInput.cpp.s
+.PHONY : src/backgammon/BackgammonGameInput.s
+
+# target to generate assembly for a file
+src/backgammon/BackgammonGameInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.s
+.PHONY : src/backgammon/BackgammonGameInput.cpp.s
+
+src/backgammon/BackgammonGameMoves.o: src/backgammon/BackgammonGameMoves.cpp.o
+.PHONY : src/backgammon/BackgammonGameMoves.o
+
+# target to build an object file
+src/backgammon/BackgammonGameMoves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o
+.PHONY : src/backgammon/BackgammonGameMoves.cpp.o
+
+src/backgammon/BackgammonGameMoves.i: src/backgammon/BackgammonGameMoves.cpp.i
+.PHONY : src/backgammon/BackgammonGameMoves.i
+
+# target to preprocess a source file
+src/backgammon/BackgammonGameMoves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.i
+.PHONY : src/backgammon/BackgammonGameMoves.cpp.i
+
+src/backgammon/BackgammonGameMoves.s: src/backgammon/BackgammonGameMoves.cpp.s
+.PHONY : src/backgammon/BackgammonGameMoves.s
+
+# target to generate assembly for a file
+src/backgammon/BackgammonGameMoves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.s
+.PHONY : src/backgammon/BackgammonGameMoves.cpp.s
+
+src/backgammon/BackgammonGameRender.o: src/backgammon/BackgammonGameRender.cpp.o
+.PHONY : src/backgammon/BackgammonGameRender.o
+
+# target to build an object file
+src/backgammon/BackgammonGameRender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o
+.PHONY : src/backgammon/BackgammonGameRender.cpp.o
+
+src/backgammon/BackgammonGameRender.i: src/backgammon/BackgammonGameRender.cpp.i
+.PHONY : src/backgammon/BackgammonGameRender.i
+
+# target to preprocess a source file
+src/backgammon/BackgammonGameRender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.i
+.PHONY : src/backgammon/BackgammonGameRender.cpp.i
+
+src/backgammon/BackgammonGameRender.s: src/backgammon/BackgammonGameRender.cpp.s
+.PHONY : src/backgammon/BackgammonGameRender.s
+
+# target to generate assembly for a file
+src/backgammon/BackgammonGameRender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.s
+.PHONY : src/backgammon/BackgammonGameRender.cpp.s
+
+src/backgammon/BackgammonGameUpdate.o: src/backgammon/BackgammonGameUpdate.cpp.o
+.PHONY : src/backgammon/BackgammonGameUpdate.o
+
+# target to build an object file
+src/backgammon/BackgammonGameUpdate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o
+.PHONY : src/backgammon/BackgammonGameUpdate.cpp.o
+
+src/backgammon/BackgammonGameUpdate.i: src/backgammon/BackgammonGameUpdate.cpp.i
+.PHONY : src/backgammon/BackgammonGameUpdate.i
+
+# target to preprocess a source file
+src/backgammon/BackgammonGameUpdate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.i
+.PHONY : src/backgammon/BackgammonGameUpdate.cpp.i
+
+src/backgammon/BackgammonGameUpdate.s: src/backgammon/BackgammonGameUpdate.cpp.s
+.PHONY : src/backgammon/BackgammonGameUpdate.s
+
+# target to generate assembly for a file
+src/backgammon/BackgammonGameUpdate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.s
+.PHONY : src/backgammon/BackgammonGameUpdate.cpp.s
+
 src/engine/Engine.o: src/engine/Engine.cpp.o
 .PHONY : src/engine/Engine.o
 
@@ -213,6 +309,18 @@ help:
 	@echo "... src/backgammon/BackgammonGame.o"
 	@echo "... src/backgammon/BackgammonGame.i"
 	@echo "... src/backgammon/BackgammonGame.s"
+	@echo "... src/backgammon/BackgammonGameInput.o"
+	@echo "... src/backgammon/BackgammonGameInput.i"
+	@echo "... src/backgammon/BackgammonGameInput.s"
+	@echo "... src/backgammon/BackgammonGameMoves.o"
+	@echo "... src/backgammon/BackgammonGameMoves.i"
+	@echo "... src/backgammon/BackgammonGameMoves.s"
+	@echo "... src/backgammon/BackgammonGameRender.o"
+	@echo "... src/backgammon/BackgammonGameRender.i"
+	@echo "... src/backgammon/BackgammonGameRender.s"
+	@echo "... src/backgammon/BackgammonGameUpdate.o"
+	@echo "... src/backgammon/BackgammonGameUpdate.i"
+	@echo "... src/backgammon/BackgammonGameUpdate.s"
 	@echo "... src/engine/Engine.o"
 	@echo "... src/engine/Engine.i"
 	@echo "... src/engine/Engine.s"

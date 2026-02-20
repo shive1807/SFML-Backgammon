@@ -8,9 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shivambhati/Desktop/SFML/src/backgammon/BackgammonGame.cpp" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o.d"
-  "/Users/shivambhati/Desktop/SFML/src/engine/Engine.cpp" "CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o.d"
-  "/Users/shivambhati/Desktop/SFML/src/main.cpp" "CMakeFiles/SFMLApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/main.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp" "CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o.d"
+  "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp" "CMakeFiles/SFMLApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/SFMLApp.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

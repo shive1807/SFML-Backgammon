@@ -21,7 +21,6 @@ events:
       - "uname"
     candidate_directories:
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -40,9 +39,9 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/Users/shivambhati/.rd/bin/uname"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/uname"
       - "/usr/local/opt/openjdk@11/bin/uname"
       - "/Users/shivambhati/gamefactory/aider_env/bin/uname"
       - "/Users/shivambhati/.bun/bin/uname"
@@ -57,7 +56,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -77,6 +75,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -106,7 +109,6 @@ events:
       - "smake"
     candidate_directories:
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -125,9 +127,9 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/Users/shivambhati/.rd/bin/gmake"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/gmake"
       - "/usr/local/opt/openjdk@11/bin/gmake"
       - "/Users/shivambhati/gamefactory/aider_env/bin/gmake"
       - "/Users/shivambhati/.bun/bin/gmake"
@@ -146,8 +148,8 @@ events:
       - "/usr/local/share/dotnet/gmake"
       - "/Users/shivambhati/.dotnet/tools/gmake"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/gmake"
       - "/Users/shivambhati/.rd/bin/make"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/make"
       - "/usr/local/opt/openjdk@11/bin/make"
       - "/Users/shivambhati/gamefactory/aider_env/bin/make"
       - "/Users/shivambhati/.bun/bin/make"
@@ -162,7 +164,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -182,6 +183,97 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/shivambhati/.rd/bin/"
+      - "/usr/local/opt/openjdk@11/bin/"
+      - "/Users/shivambhati/gamefactory/aider_env/bin/"
+      - "/Users/shivambhati/.bun/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/shivambhati/.dotnet/tools/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
+    searched_directories:
+      - "/Users/shivambhati/.rd/bin/c++"
+      - "/usr/local/opt/openjdk@11/bin/c++"
+      - "/Users/shivambhati/gamefactory/aider_env/bin/c++"
+      - "/Users/shivambhati/.bun/bin/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/opt/homebrew/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/System/Cryptexes/App/usr/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.rd/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -213,7 +305,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -233,6 +324,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -242,7 +338,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/clang++ 
+      Compiler: /usr/bin/c++ 
       Build flags: 
       Id flags:  
       
@@ -253,7 +349,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/shivambhati/Desktop/SFML/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+        /Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -262,7 +358,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting CXX compiler apple sysroot: "/usr/bin/clang++" "-E" "apple-sdk.cpp"
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
@@ -309,7 +405,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -327,6 +422,7 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
@@ -334,7 +430,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -354,6 +449,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -376,7 +476,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -394,6 +493,7 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
@@ -401,7 +501,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -421,6 +520,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -443,7 +547,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -461,6 +564,7 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
@@ -468,7 +572,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -488,6 +591,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -510,7 +618,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -528,6 +635,7 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
@@ -535,7 +643,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -555,6 +662,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -577,7 +689,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -595,6 +706,7 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
@@ -602,7 +714,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -622,6 +733,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -644,7 +760,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -662,6 +777,7 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
@@ -669,7 +785,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -689,6 +804,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -711,7 +831,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -729,10 +848,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Users/shivambhati/.rd/bin/objcopy"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/objcopy"
       - "/usr/local/opt/openjdk@11/bin/objcopy"
       - "/Users/shivambhati/gamefactory/aider_env/bin/objcopy"
       - "/Users/shivambhati/.bun/bin/objcopy"
@@ -750,6 +869,7 @@ events:
       - "/usr/local/share/dotnet/objcopy"
       - "/Users/shivambhati/.dotnet/tools/objcopy"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/objcopy"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
@@ -757,7 +877,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -777,6 +896,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -799,7 +923,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -817,10 +940,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Users/shivambhati/.rd/bin/readelf"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/readelf"
       - "/usr/local/opt/openjdk@11/bin/readelf"
       - "/Users/shivambhati/gamefactory/aider_env/bin/readelf"
       - "/Users/shivambhati/.bun/bin/readelf"
@@ -838,6 +961,7 @@ events:
       - "/usr/local/share/dotnet/readelf"
       - "/Users/shivambhati/.dotnet/tools/readelf"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/readelf"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/readelf"
     found: false
     search_context:
       ENV{PATH}:
@@ -845,7 +969,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -865,6 +988,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -887,7 +1015,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -905,10 +1032,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Users/shivambhati/.rd/bin/dlltool"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/dlltool"
       - "/usr/local/opt/openjdk@11/bin/dlltool"
       - "/Users/shivambhati/gamefactory/aider_env/bin/dlltool"
       - "/Users/shivambhati/.bun/bin/dlltool"
@@ -926,6 +1053,7 @@ events:
       - "/usr/local/share/dotnet/dlltool"
       - "/Users/shivambhati/.dotnet/tools/dlltool"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/dlltool"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -933,7 +1061,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -953,6 +1080,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -975,7 +1107,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -993,10 +1124,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Users/shivambhati/.rd/bin/addr2line"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/addr2line"
       - "/usr/local/opt/openjdk@11/bin/addr2line"
       - "/Users/shivambhati/gamefactory/aider_env/bin/addr2line"
       - "/Users/shivambhati/.bun/bin/addr2line"
@@ -1014,6 +1145,7 @@ events:
       - "/usr/local/share/dotnet/addr2line"
       - "/Users/shivambhati/.dotnet/tools/addr2line"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/addr2line"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
@@ -1021,7 +1153,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -1041,6 +1172,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1063,7 +1199,6 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -1081,10 +1216,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Users/shivambhati/.rd/bin/tapi"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/tapi"
       - "/usr/local/opt/openjdk@11/bin/tapi"
       - "/Users/shivambhati/gamefactory/aider_env/bin/tapi"
       - "/Users/shivambhati/.bun/bin/tapi"
@@ -1102,6 +1237,7 @@ events:
       - "/usr/local/share/dotnet/tapi"
       - "/Users/shivambhati/.dotnet/tools/tapi"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/tapi"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1109,7 +1245,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -1129,6 +1264,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1150,7 +1290,6 @@ events:
       - "install_name_tool"
     candidate_directories:
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/"
       - "/Users/shivambhati/gamefactory/aider_env/bin/"
       - "/Users/shivambhati/.bun/bin/"
@@ -1169,9 +1308,9 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shivambhati/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
     searched_directories:
       - "/Users/shivambhati/.rd/bin/install_name_tool"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/install_name_tool"
       - "/usr/local/opt/openjdk@11/bin/install_name_tool"
       - "/Users/shivambhati/gamefactory/aider_env/bin/install_name_tool"
       - "/Users/shivambhati/.bun/bin/install_name_tool"
@@ -1186,7 +1325,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -1206,6 +1344,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1216,8 +1359,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o"
-      binary: "/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o"
+      source: "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf"
+      binary: "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1230,18 +1373,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o'
+        Change Dir: '/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2bb50/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2bb50.dir/build.make CMakeFiles/cmTC_2bb50.dir/build
-        Building CXX object CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63cee/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_63cee.dir/build.make CMakeFiles/cmTC_63cee.dir/build
+        Building CXX object CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 15.0.0 (clang-1500.1.0.2.5)
         Target: arm64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.3.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
@@ -1254,13 +1397,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_2bb50
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bb50.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_63cee
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63cee.dir/link.txt --verbose=1
         Apple clang version 15.0.0 (clang-1500.1.0.2.5)
         Target: arm64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_2bb50 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_63cee -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:dyld-1022.1
         BUILD 05:27:37 Dec  7 2023
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
@@ -1270,7 +1413,7 @@ events:
         Library search paths:
         	/usr/local/lib
         Framework search paths:
-        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2bb50
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_63cee
         
       exitCode: 0
   -
@@ -1314,18 +1457,18 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o']
+        ignore line: [Change Dir: '/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2bb50/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2bb50.dir/build.make CMakeFiles/cmTC_2bb50.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63cee/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_63cee.dir/build.make CMakeFiles/cmTC_63cee.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
         ignore line: [Target: arm64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shivambhati/Desktop/SFML/build/CMakeFiles/CMakeScratch/TryCompile-2Uqs2o -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/CMakeScratch/TryCompile-xmHsnf -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.3.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1338,13 +1481,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_2bb50]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bb50.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_63cee]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63cee.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
         ignore line: [Target: arm64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_2bb50 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_63cee -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1359,12 +1502,12 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2bb50] ==> ignore
+          arg [cmTC_63cee] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2bb50.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_63cee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
@@ -1401,7 +1544,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake:93 (find_path)"
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:29 (find_package)"
     mode: "path"
     variable: "SFML_DOC_DIR"
     description: "Path to a file."
@@ -1419,9 +1562,6 @@ events:
       - "/Users/shivambhati/.rd/bin/SFML/doc/"
       - "/Users/shivambhati/.rd/bin/share/doc/SFML/"
       - "/Users/shivambhati/.rd/bin/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/SFML/doc/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/share/doc/SFML/"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/usr/local/opt/openjdk@11/bin/SFML/doc/"
       - "/usr/local/opt/openjdk@11/bin/share/doc/SFML/"
       - "/usr/local/opt/openjdk@11/bin/"
@@ -1476,6 +1616,9 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/SFML/doc/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/share/doc/SFML/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/SFML/doc/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/share/doc/SFML/"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/SFML/doc/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/share/doc/SFML/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
@@ -1588,9 +1731,6 @@ events:
       - "/Users/shivambhati/.rd/bin/SFML/doc/SFML.tag"
       - "/Users/shivambhati/.rd/bin/share/doc/SFML/SFML.tag"
       - "/Users/shivambhati/.rd/bin/SFML.tag"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/SFML/doc/SFML.tag"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/share/doc/SFML/SFML.tag"
-      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/SFML.tag"
       - "/usr/local/opt/openjdk@11/bin/SFML/doc/SFML.tag"
       - "/usr/local/opt/openjdk@11/bin/share/doc/SFML/SFML.tag"
       - "/usr/local/opt/openjdk@11/bin/SFML.tag"
@@ -1645,6 +1785,9 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/SFML/doc/SFML.tag"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/share/doc/SFML/SFML.tag"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/SFML.tag"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/SFML/doc/SFML.tag"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/share/doc/SFML/SFML.tag"
+      - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin/SFML.tag"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/SFML/doc/SFML.tag"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/share/doc/SFML/SFML.tag"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/SFML.tag"
@@ -1662,7 +1805,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -1682,6 +1824,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
@@ -1711,7 +1858,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:29 (find_package)"
     name: "SFML"
     components:
       -
@@ -1759,11 +1906,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/shivambhati/Desktop/SFML/build/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
+        path: "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/shivambhati/Desktop/SFML/build/CMakeFiles/pkgRedirects/sfml-config.cmake"
+        path: "/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles/pkgRedirects/sfml-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1772,14 +1919,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/shivambhati/.rd/sfml-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/shivambhati/.sdkman/candidates/gradle/current/SFMLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/shivambhati/.sdkman/candidates/gradle/current/sfml-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1816,7 +1955,6 @@ events:
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
         - "/Users/shivambhati/.rd/bin"
-        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/usr/local/opt/openjdk@11/bin"
         - "/Users/shivambhati/gamefactory/aider_env/bin"
@@ -1836,6 +1974,11 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/shivambhati/.rd/bin"
+        - "/Users/shivambhati/.sdkman/candidates/gradle/current/bin"
+        - "/usr/local/opt/openjdk@11/bin"
+        - "/Users/shivambhati/gamefactory/aider_env/bin"
+        - "/Users/shivambhati/.bun/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
