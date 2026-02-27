@@ -78,7 +78,7 @@ void Engine::renderMenu() {
 
 void Engine::handleMenuEvent(const sf::Event& event) {
 	if (auto key = event.getIf<sf::Event::KeyPressed>()) {
-		if (key->code == sf::Keyboard::Key::Enter || key->code == sf::Keyboard::Key::Return) {
+		if (key->code == sf::Keyboard::Key::Enter) {
 			startGame();
 		} else if (key->code == sf::Keyboard::Key::Escape || key->code == sf::Keyboard::Key::Q) {
 			m_window.close();
