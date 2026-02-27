@@ -76,99 +76,99 @@ CMakeFiles/SFMLApp.dir/src/main.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/main.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp
 CMakeFiles/SFMLApp.dir/src/main.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFMLApp.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/main.cpp.o -MF CMakeFiles/SFMLApp.dir/src/main.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/main.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/main.cpp.o -MF CMakeFiles/SFMLApp.dir/src/main.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/main.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp
 
 CMakeFiles/SFMLApp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp > CMakeFiles/SFMLApp.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp > CMakeFiles/SFMLApp.dir/src/main.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp -o CMakeFiles/SFMLApp.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/main.cpp -o CMakeFiles/SFMLApp.dir/src/main.cpp.s
 
 CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp
 CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o -MF CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o -MF CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp
 
 CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp > CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp > CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp -o CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/engine/Engine.cpp -o CMakeFiles/SFMLApp.dir/src/engine/Engine.cpp.s
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGame.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGame.cpp.s
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameInput.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameInput.cpp.s
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameUpdate.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameUpdate.cpp.s
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameMoves.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameMoves.cpp.s
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o: /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o: CMakeFiles/SFMLApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivambhati/Documents/GitHub/SFML-Backgammon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o -MF CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o.d -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.o -c /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp > CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.i
 
 CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shivambhati/Documents/GitHub/SFML-Backgammon/src/backgammon/BackgammonGameRender.cpp -o CMakeFiles/SFMLApp.dir/src/backgammon/BackgammonGameRender.cpp.s
 
 # Object files for target SFMLApp
 SFMLApp_OBJECTS = \
