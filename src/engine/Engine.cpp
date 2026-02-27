@@ -32,6 +32,14 @@ void Engine::processEvents() {
 		if (event->is<sf::Event::Closed>()) {
 			m_window.close();
 		}
+		if (auto resized = event->getIf<sf::Event::Resized>()) {
+			const sf::Vector2f size(static_cast<float>(resized->size.x),
+				static_cast<float>(resized->size.y));
+			m_window.setView(sf::View(sf::FloatRect({0.f, 0.f}, size)));
+			if (m_game) {
+				m_game->onResize(m_window.getSize());
+			}
+		}
 		if (m_state == State::Menu) {
 			handleMenuEvent(*event);
 		} else if (m_game) {
@@ -108,6 +116,25 @@ void Engine::handleMenuEvent(const sf::Event& event) {
 			m_window.close();
 		}
 	}
+
+	if (auto touch = event.getIf<sf::Event::TouchBegan>()) {
+		if (touch->finger != 0) {
+			return;
+		}
+		const sf::Vector2f position(static_cast<float>(touch->position.x),
+			static_cast<float>(touch->position.y));
+
+		sf::Text title(m_font);
+		sf::Text start(m_font);
+		sf::Text quit(m_font);
+		buildMenuText(title, start, quit);
+
+		if (start.getGlobalBounds().contains(position)) {
+			startGame();
+		} else if (quit.getGlobalBounds().contains(position)) {
+			m_window.close();
+		}
+	}
 }
 
 void Engine::startGame() {
@@ -120,6 +147,9 @@ void Engine::ensureFontLoaded() {
 		return;
 	}
 	const char* candidates[] = {
+		"fonts/Roboto-Regular.ttf",
+		"/system/fonts/Roboto-Regular.ttf",
+		"/system/fonts/NotoSans-Regular.ttf",
 		"/System/Library/Fonts/SFNS.ttf",
 		"/System/Library/Fonts/Supplemental/Arial.ttf",
 		"/Library/Fonts/Arial.ttf"

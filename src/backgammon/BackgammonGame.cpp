@@ -42,6 +42,14 @@ BackgammonGame::BackgammonGame(sf::Vector2u windowSize)
 	ensureFontLoaded();
 }
 
+void BackgammonGame::onResize(sf::Vector2u windowSize) {
+	if (m_windowSize == windowSize) {
+		return;
+	}
+	m_windowSize = windowSize;
+	rebuildLayout();
+}
+
 void BackgammonGame::setupBoard() {
 	m_points.fill(0);
 
@@ -115,6 +123,9 @@ void BackgammonGame::ensureFontLoaded() {
 		return;
 	}
 	const char* candidates[] = {
+		"fonts/Roboto-Regular.ttf",
+		"/system/fonts/Roboto-Regular.ttf",
+		"/system/fonts/NotoSans-Regular.ttf",
 		"/System/Library/Fonts/SFNS.ttf",
 		"/System/Library/Fonts/Supplemental/Arial.ttf",
 		"/Library/Fonts/Arial.ttf"

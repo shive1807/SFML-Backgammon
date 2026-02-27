@@ -13,6 +13,7 @@ public:
 	explicit BackgammonGame(sf::Vector2u windowSize);
 
 	void handleEvent(const sf::Event& event);
+	void onResize(sf::Vector2u windowSize);
 	void update(float dtSeconds);
 	void render(sf::RenderWindow& window) const;
 

@@ -20,13 +20,7 @@ void BackgammonGame::handleEvent(const sf::Event& event) {
 		return;
 	}
 
-	if (auto mouse = event.getIf<sf::Event::MouseButtonPressed>()) {
-		if (mouse->button != sf::Mouse::Button::Left) {
-			return;
-		}
-		const sf::Vector2f position(static_cast<float>(mouse->position.x),
-			static_cast<float>(mouse->position.y));
-
+	auto handleTap = [&](sf::Vector2f position) {
 		if (m_moves.empty()) {
 			if (isOnDice(position)) {
 				rollDice();
@@ -63,6 +57,24 @@ void BackgammonGame::handleEvent(const sf::Event& event) {
 		} else {
 			m_selectedPoint.reset();
 		}
+	};
+
+	if (auto mouse = event.getIf<sf::Event::MouseButtonPressed>()) {
+		if (mouse->button != sf::Mouse::Button::Left) {
+			return;
+		}
+		const sf::Vector2f position(static_cast<float>(mouse->position.x),
+			static_cast<float>(mouse->position.y));
+		handleTap(position);
+	}
+
+	if (auto touch = event.getIf<sf::Event::TouchBegan>()) {
+		if (touch->finger != 0) {
+			return;
+		}
+		const sf::Vector2f position(static_cast<float>(touch->position.x),
+			static_cast<float>(touch->position.y));
+		handleTap(position);
 	}
 }
 
